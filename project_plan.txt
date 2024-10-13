@@ -1,0 +1,13 @@
+Project description:
+
+-1. Build an MVP:
+
+Backend: Python / Flask
+Frontend: React 
+
+MVP:
+
+- Create a text box for the user to input the task. 
+- The task will be added to 1 to-do list -> user can name the list
+- Build an area to display the user input
+- Have the ability to delete/  mark the task as done or not to do
