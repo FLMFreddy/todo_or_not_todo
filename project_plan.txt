@@ -7,7 +7,28 @@ Frontend: React
 
 MVP:
 
-- Create a text box for the user to input the task. 
-- The task will be added to 1 to-do list -> user can name the list
+- Create a text box for the user to input the task. [UI]
+- The task will be added to 1 to-do list after a clicks add button -> user can name the list
+  - Add a text box and button that calls an endpoint on the [Backend]
+    - we have to aggree on the endpoint path and payload
+  - implement endpoint with aggreed path and payload [Backend]
+    - figure out how to add routes in flask
+    - have that route print dummy text ( hello world or something )
+    - decide where we are storing the task information.
+    - decide on the properties we need to store
+      - ideas for what we could store:
+        - id - integer?
+        - name text
+        - created_at date
+        - updated_at date
+        - completed_at date
+        - deleted_at date
 - Build an area to display the user input
+  - add display area in the UI that we will show the tasks available [UI]
+  - add an endpoint that when called will return available tasks [Backend]
 - Have the ability to delete/  mark the task as done or not to do
+  - add button next to each task that when clicked will mark the task as completed [UI]
+    - we have to agree on the endpoint path and payload
+  - add an end point that we can use to mark tasks as completed [Backend]
+  - add button next to each task that when clicked will mark the task as deleted/archived [UI]
+    - we have to agree on the endpoint path and payload
